@@ -1,13 +1,13 @@
 # sh boot.sh
 
-sh script/pip.sh
-sh system/apt.sh
-sh system/pip.sh
-sh script/jvm.sh
-sh script/rvm.sh
-sh script/vim.sh
+sh dev/pip.sh
+sh bin/apt.sh
+sh bin/pip.sh
+sh dev/jvm.sh
+sh dev/rvm.sh
+sh dev/vim.sh
 
 cp themes/vimrc ~/.vimrc
-cp bash/prompt ~/.bash_prompt
-cp bash/aliases ~/.bash_aliases
+cp home/prompt ~/.bash_prompt
+cp home/aliases ~/.bash_aliases
 mkdir ~/.colout && cp themes/logs ~/.colout/colout_log.py
