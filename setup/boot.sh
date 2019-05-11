@@ -7,9 +7,9 @@ sh dev/jvm.sh
 sh dev/rvm.sh
 
 mkdir -p ~/.vim/colors
-cp home/.vimrc ~/.vimrc
 cp home/.bash_prompt ~/.bash_prompt
 cp home/.bash_aliases ~/.bash_aliases
 
 mkdir ~/.colout && cp home/colout/colout_log.py ~/.colout/colout_log.py
-wget https://raw.githubusercontent.com/w0ng/vim-hybrid/master/colors/hybrid.vim -P ~/.vim/colors
+wget https://raw.githubusercontent.com/knoxknox/dotfiles/master/home/.vimrc -P ~/.vimrc
+wget https://raw.githubusercontent.com/knoxknox/dotfiles/master/home/.vim/colors/hybrid.vim -P ~/.vim/colors
