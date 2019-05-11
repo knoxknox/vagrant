@@ -1,3 +1,3 @@
-sudo pip install colout==0.3
-sudo pip install httpie==1.0.2
-sudo pip install icdiff==1.9.1
+pip install --user colout==0.3
+pip install --user httpie==1.0.2
+pip install --user icdiff==1.9.1
